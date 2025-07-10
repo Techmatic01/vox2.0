@@ -453,11 +453,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {/* Company Info */}
             <div>
-              
-                <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-                  VoxScale
-                </span>
-              </div>
+              <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+                VoxScale
+              </span>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 We blend design, engineering, and AI to bring your ideas to life faster than ever.
               </p>
