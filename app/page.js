@@ -572,11 +572,11 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="bg-white border-gray-200 hover:border-blue-300 transition-all duration-300 hover:scale-105 group shadow-sm hover:shadow-md">
               <CardContent className="p-6 text-center">
-                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden">
+                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden group">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=96&h=96&fit=crop&crop=face"
+                    src="/memoji1.png"
                     alt="Alex Sterling"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 cursor-pointer"
                   />
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-gray-900">Alex Sterling</h3>
@@ -598,11 +598,11 @@ export default function HomePage() {
 
             <Card className="bg-white border-gray-200 hover:border-blue-300 transition-all duration-300 hover:scale-105 group shadow-sm hover:shadow-md">
               <CardContent className="p-6 text-center">
-                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden">
+                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden group">
                   <img
-                    src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=96&h=96&fit=crop&crop=face"
+                    src="/memoji2.png"
                     alt="Maya Chen"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 cursor-pointer"
                   />
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-gray-900">Maya Chen</h3>
@@ -624,11 +624,11 @@ export default function HomePage() {
 
             <Card className="bg-white border-gray-200 hover:border-blue-300 transition-all duration-300 hover:scale-105 group shadow-sm hover:shadow-md">
               <CardContent className="p-6 text-center">
-                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden">
+                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden group">
                   <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=96&h=96&fit=crop&crop=face"
+                    src="/memoji3.png"
                     alt="Raj Kumar"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 cursor-pointer"
                   />
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-gray-900">Raj Kumar</h3>

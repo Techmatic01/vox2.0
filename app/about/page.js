@@ -82,42 +82,42 @@ export default function AboutPage() {
     {
       name: "Sarah Chen",
       role: "Founder & Vision Engineer",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
+      image: "/memoji1.png",
       quote: "I design for clarity.",
       bio: "Former Tesla engineer who believes software should be as elegant as it is powerful.",
     },
     {
       name: "Marcus Rivera",
       role: "Chief Technology Officer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      image: "/memoji2.png",
       quote: "I automate chaos.",
       bio: "Ex-Google architect obsessed with building systems that scale effortlessly.",
     },
     {
       name: "Elena Kowalski",
       role: "Head of Design",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+      image: "/memoji3.png",
       quote: "Beauty drives behavior.",
       bio: "Apple design alum who crafts interfaces that users fall in love with.",
     },
     {
       name: "David Kim",
       role: "AI & Machine Learning Lead",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      image: "/memoji4.png",
       quote: "Intelligence amplifies intention.",
       bio: "Stanford PhD turning cutting-edge research into practical business solutions.",
     },
     {
       name: "Priya Sharma",
       role: "Head of Growth",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop&crop=face",
+      image: "/memoji5.png",
       quote: "Growth is an art, not an accident.",
       bio: "Former Stripe growth lead who turns products into movements.",
     },
     {
       name: "James Thompson",
       role: "Senior Full-Stack Engineer",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+      image: "/memoji6.png",
       quote: "Code is poetry in motion.",
       bio: "Netflix veteran who writes code that's as beautiful as it is functional.",
     },
@@ -339,11 +339,11 @@ export default function AboutPage() {
                 className="bg-white border-gray-200 hover:border-blue-300 transition-all duration-300 hover:scale-105 group shadow-lg hover:shadow-blue-500/20"
               >
                 <CardContent className="p-0">
-                  <div className="aspect-square relative overflow-hidden rounded-t-lg">
+                  <div className="aspect-square relative overflow-hidden rounded-t-lg group">
                     <img
-                      src={member.image || "/placeholder.svg"}
+                      src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 cursor-pointer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                     <div className="absolute bottom-4 left-4 right-4">
