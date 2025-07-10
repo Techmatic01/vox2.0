@@ -174,8 +174,6 @@ export default function AboutPage() {
             <div
               className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}
             >
-              >
-
               <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-900">
                 We Engineer{" "}
                 <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
